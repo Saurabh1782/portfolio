@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Saurabh Shukla</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            Saurabh Shukla<br>
+            <span class="contact-details">saurabh.shukla@example.com | +91 98765 43210</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://picsum.photos/150" alt="Profile Image" class="profile-image">
+        <p>I'm a web developer with a passion for creating user-friendly and accessible web applications. I have experience in HTML, CSS, and JavaScript, and I enjoy learning new technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML Logo">
+                <span>HTML</span>
+            </div>
+            <div class="skill">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS Logo">
+                <span>CSS</span>
+            </div>
+            <div class="skill">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript Logo">
+                <span>JavaScript</span>
+            </div>
+            <div class="skill">
+                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Logo">
+                <span>React</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A personal portfolio website to showcase my skills and projects.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: E-commerce Site</h3>
+            <p>An e-commerce site built with React and Node.js, featuring user authentication and payment integration.</p>
+        </div>
+        <div class="project">
+            <h3>Project 3: Weather App</h3>
+            <p>A weather application using the OpenWeatherMap API to provide real-time weather data.</p>
+        </div>
+    </section>
+
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <ul id="recommendation-list">
+            <li>Saurabh is a dedicated and talented developer who consistently delivers high-quality work.</li>
+            <li>He is always eager to learn and adapt to new challenges.</li>
+            <li>Saurabh’s attention to detail and problem-solving skills are outstanding.</li>
+        </ul>
+        <input type="text" id="new-recommendation" placeholder="Add a new recommendation">
+        <button id="submit-recommendation">Submit</button>
+    </section>
+
+    <footer>
+        <div class="home-icon" title="Home" onclick="scrollToTop()">🏠</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
